@@ -14,8 +14,11 @@
     padding: 10px;
 }
 
+.logo{
+	
+}
 .nav {
-    position: fixed;
+    position: relative;
     top: 10px;
     left: 10px;
 }
@@ -30,6 +33,10 @@
 
 .logo{
 	position: absolute;
+}
+
+.main_menu{
+
 }
 .main_menu_item.{
 	display: inline;
@@ -49,4 +56,6 @@
 
 }
 
-.section_menu_text
+.section_menu_text{
+
+}
