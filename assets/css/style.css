@@ -1,12 +1,5 @@
-.head{
-	position: relative;
-	left: 475px
-}
+/* Estilo para o cabeçalho */
 
-.img_h{
-	position: relative;
-	left: 550px;
-}
 .header {
     border-style: solid;
     border-width: 1px;
@@ -17,9 +10,14 @@
 .logo{
 	position: relative;
 	top: 10px
-
-
 }
+
+.head{
+	position: relative;
+	left: 475px
+}
+
+
 .nav {
     position: relative;
     top: 10px;
@@ -33,19 +31,17 @@
     left: 20px;
 }
 
-
-.logo{
-	position: absolute;
-}
-
 .main_menu{
 
 }
+
 .main_menu_item.{
 	display: inline;
 
 
 }
+
+
 
 .section_menu{
 	position: absolute;
@@ -99,3 +95,12 @@
 .trab_menu_text{
 
 }
+.projeto_listao{
+	display: inline-block;
+  position: relative;
+  width: 500px;
+  height: 250px;
+  background-color: gold;}
+.projeto_lista{}
+.item_projeto_lista{}
+.texto_projeto_lista{}
