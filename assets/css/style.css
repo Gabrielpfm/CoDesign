@@ -38,16 +38,17 @@
 }
 
 .section_menu{
-	position: relative;
+	position: absolute;
 	left: 10px;
-	top: 40px;
+	top: 575px;
+	width: 1024px;
 	text-align: center;
 
 }
 .section_menu_item{
 	display: inline-block;
 	position: relative;
-	width: 512px;
+	width: 500px;
 	height: 250px;
 	background-color: gold;
 }
@@ -62,19 +63,25 @@
 }
 
 
-}
+
 
 .section_menu_text{
 	position: absolute;
-	left: 210px;
+	left: 200px;
 	top: 10px;
-	width: 250px;
-	height: 250px;
+	width: 550px;
+	height: 550px;
+	text-align: left;
 
 }
 
 /* Estilo para página de projetos */
 .trab_menu_item{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 200px;
+	height: 250px;
 
 }
 .trab_menu_image{
@@ -85,8 +92,14 @@
 	height: 250px;
 }
 
-}
+
 .trab_menu_text{
+	position: absolute;
+	left: 200px;
+	top: 10px;
+	width: 550px;
+	height: 550px;
+	text-align: left;
 
 }
 
