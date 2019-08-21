@@ -16,7 +16,7 @@
 .nav {
 	position: relative;
 	top: 10px;
-	left: 10px;
+	left: 150px;
 }
 
 .nav-item {
@@ -30,16 +30,16 @@
 
 .img_h{
 	position:relative;
-	left:500px;
+	left:50px;
 }
 .head{
 	position: relative;
-	left: 475px
+	left: 505px
 }
 
 .section_menu{
 	position: absolute;
-	left: 10px;
+	left: 205px;
 	top: 575px;
 	width: 1024px;
 	text-align: center;
