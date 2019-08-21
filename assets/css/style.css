@@ -1,5 +1,32 @@
-main_menu_item.{
-	display: inline;
-	
+.header {
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px;
+    padding: 10px;
+}
 
+.nav {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.nav-item {
+    background-color: gold;
+    display: inline;
+}
+
+
+.logo{
+	position: absolute;
+}
+.main_menu_item.{
+	display: inline;
+
+
+}
+
+.section_menu_item{
+	display: inline-block;
+	position: relative;
 }
