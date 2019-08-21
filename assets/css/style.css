@@ -15,7 +15,10 @@
 }
 
 .logo{
-	
+	position: relative;
+	top: 10px
+
+
 }
 .nav {
     position: relative;
@@ -44,18 +47,55 @@
 
 }
 
+.section_menu{
+	position: absolute;
+  left: 10px;
+  top: 380px;
+  width: 1024px;
+  text-align: left;
+
+}
 .section_menu_item{
 	display: inline-block;
-	position: relative;
+  position: relative;
+  width: 500px;
+  height: 250px;
+  background-color: gold;
 }
 
-.section_menu{
 
-}
 .section_menu_image{
+	  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200px;
+  height: 250px;
+}
+
 
 }
 
 .section_menu_text{
+	position: absolute;
+  left: 210px;
+  top: 10px;
+  width: 250px;
+  height: 250px;
+
+}
+
+.trab_menu_item{
+
+}
+.trab_menu_image{
+	  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200px;
+  height: 250px;
+}
+
+}
+.trab_menu_text{
 
 }
