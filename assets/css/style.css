@@ -1,6 +1,11 @@
 .head{
 	position: relative;
-	left: 350px
+	left: 475px
+}
+
+.img_h{
+	position: relative;
+	left: 550px;
 }
 .header {
     border-style: solid;
@@ -36,3 +41,12 @@
 	display: inline-block;
 	position: relative;
 }
+
+.section_menu{
+
+}
+.section_menu_image{
+
+}
+
+.section_menu_text
