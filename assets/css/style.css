@@ -127,7 +127,9 @@
 /* Estilo para a página do projeto */
 .projeto_listao{
 	display: inline-block;
-	position: relative;
+	position: absolute;
+	top: 175px;
+	left: 670px;
 	width: 500px;
 	height: 250px;
 	background-color: gold;
@@ -156,11 +158,3 @@
 	background-color: gold;
 }
 
-.projeto_img{
-	position: absolute;
-	left: 350px;
-	top: 200px;
-	width: 700px;
-	height: 300px;
-
-}
