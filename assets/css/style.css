@@ -2,7 +2,7 @@
 
 .header {
     border-style: solid;
-	border-width: 1px;
+    border-width: 1px;
     left: 5%;
     top: 10%;
     width: 100%;
@@ -23,14 +23,14 @@
 .nav { 
     width: 100%;
     height: 100%;
-	display: flex;
+    display: flex;
     justify-content:space-around;
 
 
 }
 
 .nav-item {
-	background-color: gold;
+
     margin-left: 0.5rem
 }
 
@@ -44,49 +44,85 @@
 /* Estilo para a página de categorias */
 
 .img_h{
-	position:relative;
-	left:50px;
+	display: flex;
+    margin-left: 5rem;
+    margin-top: 2.5rem;
+
 }
 .head{
-	position: relative;
-	left: 505px
+	display: flex;
+    justify-content: center;
+    margin-top: 1rem;
 }
 
 .section_menu{
-	position: absolute;
-	left: 205px;
-	top: 575px;
-	width: 1024px;
-	text-align: center;
+    display: grid;
+    justify-items: center;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-top: 5rem;
+    grid-gap: 2.5rem; 
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50% ;
+
 
 }
-.section_menu_item{
-	display: inline-block;
-	position: relative;
-	width: 500px;
-	height: 250px;
-	background-color: gold;
+.section_menu_item1,.section_menu_item2,.section_menu_item3,.section_menu_item4{
+	
+    border-style: solid;
+    border-width: 1px;
+    width: 25rem;
+    height: 20rem;
+    
 }
 
+.section_menu_item1{
+    grid-row-start: 1;
+    grid-column-start: 1
+
+
+
+}
+
+.section_menu_item2{
+    grid-row-start: 1;
+    grid-column-start: 2
+
+    
+}
+
+.section_menu_item3{
+    grid-row-start: 2;
+    grid-column-start: 1
+
+    
+}
+
+.section_menu_item4{
+    grid-row-start: 2;
+    grid-column-start: 2
+
+    
+}
 
 .section_menu_image{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 200px;
-	height: 250px;
+	
+    height: 50%;
+    width:100%;
 }
 
 
 
 
+.section_menu_title{
+    display: flex;
+    justify-content: center;
+
+}
 .section_menu_text{
-	position: absolute;
-	left: 200px;
-	top: 10px;
-	width: 550px;
-	height: 550px;
-	text-align: left;
+	display: flex;
+    margin: 0.25rem
+
 
 }
 
