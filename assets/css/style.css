@@ -1,31 +1,37 @@
 /* Estilo para o cabeçalho */
 
 .header {
-	border-style: solid;
+	display: flex;
+    align-items: center;
+    border-style: solid;
 	border-width: 1px;
 	margin: 10px;
 	padding: 10px;
 }
 
 .logo{
-	position: relative;
-	top: 10px
+	display: flex;
+
 }
 
 
-.nav {
-	position: relative;
-	top: 10px;
-	left: 150px;
+.nav { /*palavras no cabeçalho*/
+	display: flex;
+    align-items:center;
+    justify-content:space-around;
+
+
 }
 
 .nav-item {
 	background-color: gold;
-	display: inline;
-	position: relative;
-	left: 20px;
+    display: flex;
+
 }
 
+.img_header{
+    
+}
 /* Estilo para a página de categorias */
 
 .img_h{
