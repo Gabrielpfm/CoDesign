@@ -1,0 +1,49 @@
+
+
+.trab_menu{
+	display: grid;
+	left: 10px;
+	top: 600px;
+	width: 1024px;
+	text-align: center;
+
+
+}
+.trab_titulo{
+	display: flex;
+	justify-content: center;
+
+}
+.legenda_trab{ 
+	position: absolute;
+	left: 450px;
+	top: 500px;
+}
+.trab_menu_item{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 200px;
+	height: 250px;
+
+}
+.trab_menu_image{
+	
+
+}
+
+
+.trab_menu_text{
+	display: flex;
+	justify-content: center;
+	
+
+}
+
+.trab_big_image{
+	
+	display: flex;
+	align-content: center;
+    margin-left: 5rem;
+    margin-top: 2.5rem;
+}
