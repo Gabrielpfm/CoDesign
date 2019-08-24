@@ -2,48 +2,81 @@
 
 .trab_menu{
 	display: grid;
-	left: 10px;
-	top: 600px;
-	width: 1024px;
-	text-align: center;
+	justify-items: center;
+	margin-left:5%;
+	margin-right: 5%;
+	margin-top: 5rem;
+	grid-gap: 2.5rem; 
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50% ;
+
+
+}
+
+
+.trab_big_image{
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	height: 50%;
 
 
 }
 .trab_titulo{
 	display: flex;
 	justify-content: center;
-
+	margin-top: 1rem;
 }
 .legenda_trab{ 
-	position: absolute;
-	left: 450px;
-	top: 500px;
-}
-.trab_menu_item{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 200px;
-	height: 250px;
-
-}
-.trab_menu_image{
-	
-
-}
-
-
-.trab_menu_text{
 	display: flex;
 	justify-content: center;
-	
+	margin-top: 1rem;
+}
+
+.trab_menu_item1,.trab_menu_item2,.trab_menu_item3,.trab_menu_item4{
+
+	border-style: solid;
+	border-width: 1px;
+	width: 25rem;
+	height: 20rem;
+
+}
+.trab_menu_item1{
+	grid-row-start:1;
+	grid-column-start:1; 
 
 }
 
-.trab_big_image{
-	
+.trab_menu_item2{
+	grid-row-start:1;
+	grid-column-start:2;
+}
+
+.trab_menu_item3{
+	grid-row-start:2;
+	grid-column-start:1;
+}
+
+.trab_menu_item4{
+	grid-row-start:2;
+	grid-column-start:2;
+}
+.trab_menu_image{
+	height: 50%;
+	width:100%;
+
+
+}
+
+.trab_menu_title{
 	display: flex;
-	align-content: center;
-    margin-left: 5rem;
-    margin-top: 2.5rem;
+	justify-content: center;
+
 }
+.trab_menu_text{
+	display: flex;
+	margin: 0.25rem
+
+
+}
+
