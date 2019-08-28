@@ -31,6 +31,8 @@
 	display: flex;
 	justify-content: center;
 	margin-top: 1rem;
+	font-family:'Hepta Slab', serif;
+    font-size: 1rem;
 }
 
 .trab_menu_item1,.trab_menu_item2,.trab_menu_item3,.trab_menu_item4{
@@ -71,12 +73,14 @@
 .trab_menu_title{
 	display: flex;
 	justify-content: center;
+	font-family: 'Righteous', cursive;
+    font-size: 1.5rem;
 
 }
 .trab_menu_text{
 	display: flex;
-	margin: 0.25rem
-
-
+	margin: 0.25rem;
+	font-family:'Hepta Slab', serif;
+    font-size: 0.75rem;
 }
 

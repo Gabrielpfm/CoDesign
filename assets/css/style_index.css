@@ -70,11 +70,12 @@
 .section_menu_title{
     display: flex;
     justify-content: center;
-
+    font-family: 'Righteous', cursive;
+    font-size: 1.5rem;
 }
 .section_menu_text{
 	display: flex;
-    margin: 0.25rem
-
-
+    margin: 0.25rem;
+    font-family:'Hepta Slab', serif;
+    font-size: 0.8rem;
 }
