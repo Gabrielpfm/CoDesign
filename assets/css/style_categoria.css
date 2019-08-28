@@ -13,10 +13,14 @@
 
 }
 
-
-.trab_big_image{
+.img_place{
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	width:100%;
+}
+.trab_big_image{
+	margin: 0.5rem;
 	width: 50%;
 	height: 50%;
 
