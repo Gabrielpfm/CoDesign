@@ -41,3 +41,14 @@
     width:10rem;
 
 }
+
+.titles{
+    font-family: 'Fjjala One', sans-serif;
+    font-size: 5rem;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 1rem;
+    text-align: center;
+
+}

@@ -26,11 +26,7 @@
 
 
 }
-.trab_titulo{
-	display: flex;
-	justify-content: center;
-	margin-top: 1rem;
-}
+
 .legenda_trab{ 
 	display: flex;
 	justify-content: center;

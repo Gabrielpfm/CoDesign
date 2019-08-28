@@ -44,12 +44,7 @@
 	grid-column-start:3;
 	
 }
-.projeto_title{
-	display: flex;
-	margin-top: 2rem;
-	justify-content: center;
 
-}
 
 .projeto_img{
 	grid-row:1/2;
