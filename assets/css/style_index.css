@@ -2,11 +2,16 @@
 
 .img_h{
 	display: flex;
-    margin-left: 5rem;
+    justify-content: center;
     margin-top: 2.5rem;
-
+    border-radius: 20rem;
 }
-
+.img_place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
 
 .section_menu{
     display: grid;
