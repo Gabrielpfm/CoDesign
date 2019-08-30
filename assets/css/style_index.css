@@ -33,6 +33,8 @@
     border-width: 1px;
     width: 25rem;
     height: 20rem;
+    background-color:#092640;
+    color: #3999bf;
     
 }
 
@@ -85,4 +87,6 @@
     margin: 0.25rem;
     font-family:'Hepta Slab', serif;
     font-size: 0.8rem;
+    padding: 0.5rem;
+    line-height: 1.5;
 }
