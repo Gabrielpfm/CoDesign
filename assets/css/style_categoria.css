@@ -39,6 +39,7 @@
 
 	border-style: solid;
 	border-width: 1px;
+	border-color: #000000;
 	width: 25rem;
 	height: 20rem;
 	background-color: #092640;
@@ -69,8 +70,6 @@
 .trab_menu_image{
 	height: 50%;
 	width:100%;
-
-
 }
 
 .trab_menu_title{
@@ -89,3 +88,6 @@
 	line-height: 1.5;
 }
 
+.cor_fundo{
+	background-color: #949494
+}
