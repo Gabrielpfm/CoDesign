@@ -9,6 +9,7 @@
     height: 100%;
     display: flex;
     align-items: center;
+    background-color: #092640;
 
 
 }
@@ -53,4 +54,10 @@
     margin-top: 1rem;
     text-align: center;
 
+}
+.link{
+    color: #3999bf
+}
+.link:hover{
+    color: #5ed7f2
 }
