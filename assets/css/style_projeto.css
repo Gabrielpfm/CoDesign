@@ -8,8 +8,6 @@
 	grid-gap: 2.5rem; 
 	grid-template-columns: 34% 33% 33%;
 	grid-template-rows: 50% 50% ;
-
-	
 }
 
 
@@ -19,6 +17,8 @@
 	height: 20rem;
 	border-style: solid;
 	border-width: 1px;
+	background-color: #092640;
+	color: #FFFFFF;
 }
 
 .projeto_lista1{
