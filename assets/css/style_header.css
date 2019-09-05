@@ -71,7 +71,13 @@
 .main{
     padding: 2rem;
 }
+.menu_title{
+    display: none;
+}
 
+.menu1{
+    display: none;
+}
 @media(max-width:68rem)
 {
     .main{
@@ -110,7 +116,7 @@
 }
 
 .nav-item{
-    
+    display: none;   
 }
 
 .img_header{
@@ -148,6 +154,8 @@
     
 }
 
-
+.menu1{
+    display: flex;
+}
 
 }
