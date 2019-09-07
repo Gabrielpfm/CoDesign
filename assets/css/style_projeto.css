@@ -61,90 +61,108 @@
 	display: flex;
 	justify-content: center;
 	font-family: 'Righteous', cursive;
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 .item_projeto_lista{
 	display: flex;
 	margin-top: 0.5rem;
 	font-family:'Hepta Slab', serif;
-    font-size: 1rem;
+	font-size: 1rem;
 }
 
 .cor_fundo{
 	background-color: #949494
 }
 
-
-@media(max-width: 68rem){
-
-.projeto_listao{
-	display: grid;
-        margin-top: 2rem;
-        grid-template-columns: 1fr;
-        grid-template-rows:  20% 20% 20% 20% 20%;
+.title{
+	display: none;
 }
 
 
 
-.projeto_lista1,.projeto_lista2,.texto_projeto_lista1,.texto_projeto_lista2{
-	border-style: solid;
+
+@media(max-width: 68rem){
+
+
+	.title{
+
+		display: flex;
+		justify-content: center;
+	}
+
+	.projeto_listao{
+		display: grid;
+		margin-top: 2rem;
+		grid-template-columns: 1fr;
+		grid-template-rows:  5% 5% 5% 5%;
+	}
+
+
+
+	.projeto_lista1,.projeto_lista2,.texto_projeto_lista1,.texto_projeto_lista2{
+		border-style: solid;
 		border-width: 1px;
 		border-color: #000000;
 		width: 1fr;
 		height: 1fr;
 		background-color: #092640;
 		color: #3999bf;
-}
+	}
 
-.projeto_lista1{
-	grid-row: 2;
-	grid-column-start:1;
+	.projeto_lista1{
+		grid-row-start: 2;
+		grid-column-start:1;
 
-}
+	}
 
-.projeto_lista2{
-	grid-row: 3;
-	grid-column-start:1;
-}
+	.projeto_lista2{
+		grid-row-start: 3;
+		grid-column-start:1;
+	}
 
-.texto_projeto_lista1{
-	grid-row: 4;
-	grid-column-start:1;
-
-	
-}
-
-.texto_projeto_lista2{
-	grid-row: 5;
-	grid-column-start:1;
-	
-}
+	.texto_projeto_lista1{
+		grid-row-start: 4;
+		grid-column-start:1;
 
 
-.projeto_img{
-	grid-column-start:1;
-	grid-row:1;
-	height: 200%;
-	width:100%;
+	}
+
+	.texto_projeto_lista2{
+		grid-row-start: 5;
+		grid-column-start:1;
+
+	}
 
 
-}
+	.projeto_img{
 
-.titulo{
-	display: flex;
-	justify-content: center;
-	font-family: 'Righteous', cursive;
-    font-size: 1.5rem;
-}
+		grid-column-start:1;
+		grid-row-start:1;
+		height: 50%;
+		width:50%;
+		margin-left: 3rem;
 
-.item_projeto_lista{
-	display: flex;
-	margin-top: 0.5rem;
-	font-family:'Hepta Slab', serif;
-    font-size: 1rem;
-}
 
-.cor_fundo{
-	background-color: #949494
+	}
+
+	.titulo{
+		display: flex;
+		justify-content: center;
+		font-family: 'Righteous', cursive;
+		font-size: 1.5rem;
+		width: 100%;
+		margin-right: 5rem
+	}
+
+	.item_projeto_lista{
+		display: flex;
+		margin-top: 0.5rem;
+		font-family:'Hepta Slab', serif;
+		font-size: 1rem;
+	}
+
+	.cor_fundo{
+		background-color: #949494
+	}
 }
