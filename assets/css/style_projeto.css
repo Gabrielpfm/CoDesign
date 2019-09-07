@@ -74,9 +74,8 @@
 .cor_fundo{
 	background-color: #949494
 }
-
 .tela_cel{
-	display: none;
+	
 }
 
 @media(max-width: 68rem){
