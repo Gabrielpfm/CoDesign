@@ -43,49 +43,15 @@
   <main class="main">
     <ul class="section_menu">
       {{#each portfolio}}
-      <li class="section_menu_item1">
+      <li class="section_menu_item">
         <img class="section_menu_image" src="assets/img/mat.png" alt="MatSim">
         <p class="section_menu_title">
-          <a class="link_title" href="categoria.html">MatSim</a>
+          <a class="link_title" href="categoria.html">{{@key}}</a>
         </p>
         <p class="section_menu_text">
-          {{@key}}
+          {{this.descricao}}
         </p>
       </li>
-      <li class="section_menu_item2">
-        <img class="section_menu_image" src="assets/img/digital.jpeg" alt="Mundo Digital">
-        <div class="section_info">
-          <p class="section_menu_title">
-            <a class="link_title" href="categoria.html">Digitais</a>
-          </p>
-          <p class="section_menu_text">
-            {{@key}} 
-          </p>
-        </div>
-      </li>
-      <li class="section_menu_item3">
-        <img class="section_menu_image" src="assets/img/fab.png" alt="Fablab">
-        <div class="section_info">
-          <p class="section_menu_title">
-            <a class="link_title" href="categoria.html">Fablab</a>
-            <p>
-            </p>
-            <p class="section_menu_text">
-              {{@key}} 
-            </p>
-          </div>
-        </li>
-        <li class="section_menu_item4">
-          <img class="section_menu_image" src="assets/img/eletrica.jpg" alt="Elétrica">
-          <div >
-            <p class="section_menu_title">
-              <a class="link_title" href="categoria.html">Elétrica</a>
-            </p>
-            <p class="section_menu_text">
-              {{@key}} 
-            </p>
-          </div>
-        </li>
       {{/each}}
       </ul>
 
