@@ -121,21 +121,22 @@
 
 
     .nav { 
-    position: absolute;
-    margin: 1rem auto;
-    top: 3rem;
-    width: 20%;
-    height: 15rem;
-    background-color: #092640;
-    display: none;
+        position: absolute;
+        margin: 1rem auto;
+        top: 3rem;
+        width: 20%;
+        height: 15rem;
+        background-color: #092640;
+        display: none;
     }
 
     .menu_title:hover .nav {
 
-       display: block;
-   }
+     display: block;
 
-   .nav-item{
+ }
+
+ .nav-item{
     padding: 1rem;   
 }
 
@@ -168,13 +169,16 @@
 
 }
 .menu_title{
-    display: block;
+
     font-weight: bold;
     text-align: center;
     max-width: 66rem;
-  margin: 1rem auto;
-  display: flex;
-  }
+    margin: 1rem auto;
+    display: flex;
+    font-family:'Righteous', cursive;
+    font-size: 1.25rem;
+
+}
 
 .nav1{
     display: none;
