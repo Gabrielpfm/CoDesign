@@ -15,10 +15,14 @@ document.addEventListener('DOMContentLoaded', function() {
       É sério. Se fizer isso, você realmente
       vai se arrepender. Você foi avisado.
     */
+    context = data['portfolio'][value]
     coDesReplace('.nav',data)
     coDesReplace('.nav1',data)
+    coDesReplace('.trab_big_image',context)
+    coDesReplace('.titles',context)
+    coDesReplace('.legenda_trab',context)
 
-    context = data['portfolio'][value]
+    
     coDesReplace('.section_menu', context)
 
 
