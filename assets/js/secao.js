@@ -1,6 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
   let params = coDesExtract()
   let value = params['key']
+  let strlink = "projeto.html?key2="+value+"&key={{@key}}"
+  let link = document.querySelector(".link_title")
+  link.href = strlink
 
   let db = coDesConnect('https://dicnotas.firebaseio.com/')
 
@@ -18,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     context = data['portfolio'][value]
     coDesReplace('.nav',data)
     coDesReplace('.nav1',data)
-    coDesReplace('.trab_big_image',context)
+    coDesReplace('.img_place',context)
     coDesReplace('.titles',context)
     coDesReplace('.legenda_trab',context)
 

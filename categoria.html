@@ -40,7 +40,7 @@
       {{this.categoria}}
     </h1>
     <div class="img_place">
-      <img class="trab_big_image" src="assets/img/{{@key}}.png" alt="{{@key}}">
+      <img class="trab_big_image" src="assets/img/{{this.img}}.png" alt="{{this.img}}">
     </div>
     <p class="legenda_trab">
       {{this.descricao}}
@@ -52,10 +52,10 @@
       <li class="section_menu_item">
         <img class="section_menu_image" src="assets/img/{{@key}}.png" alt="{{@key}}">
         <p class="section_menu_title">
-          <a class="link_title" href="projeto.html?key={{@key}}">{{this.titulo}}</a>
+          <a class="link_title" href="projeto.html?key={{@key}}">{{this.itens.titulo}}</a>
         </p>
         <p class="section_menu_text">
-          {{this.descricao}}
+          {{this.itens.descricao}}
         </p>
       </li>
       {{/each}}
